@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #C92071;
+    --dark-gray: #1F1F1F;
+    --warning: #F6AA1C;
+    --light-gray: #8F8F8F;
+    --light-gray-3: #F5F5F5;
+    --bg-yellow: #E7FF86;
+    --font: 'Inter', sans-serif;
+    --bg-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
