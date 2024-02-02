@@ -1,8 +1,8 @@
 import style from './Link.module.css'
 
-const Link = ({children}) => {
+const Link = ({hover = false, children}) => {
   return (
-    <a href="#" className={style.link}>{children}</a>
+    <a href="#" className={hover ? style.linkHover : style.link}>{children}</a>
   )
 }
 

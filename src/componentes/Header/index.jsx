@@ -16,6 +16,7 @@ const Header = () => {
       <div className={style.button}>
         <Link>Cadastre-se</Link>
         <Button>Entrar</Button>
+        <Link hover='true'>Hover</Link>
       </div>
     </header>
   )
